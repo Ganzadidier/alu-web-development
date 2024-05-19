@@ -3,6 +3,7 @@ This is the readme file for the project Smileschool which is a website written b
 
 
 
+<img width="524" alt="image" src="https://github.com/Ganzadidier/alu-web-development/assets/156481996/8fbece51-75d5-4b6f-981b-af8885549e9f">
 
 
 

@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100%; /* Ensure the body takes the full height of the viewport */
+    margin: 0;
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/*header {
+    flex: 0 0 auto; /* Make sure the header does not grow or shrink
+}
+
+footer {
+    flex: 0 0 auto; /* Make sure the footer does not grow or shrink
+}*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Allow main to grow and fill available space */
+    border: 1px solid #ddd;
+}
+
+article {
+    flex: 2;
+    padding: 10px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+article h1, article h2, article h3 {
+    color: cadetblue;
+}
+
+article p {
+    color: #666;
+    line-height: 1.6;
+}
+
+article a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
